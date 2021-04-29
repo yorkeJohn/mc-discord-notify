@@ -1,0 +1,6 @@
+{
+  "server_jar":"server.jar",
+  "jvm_args":"-Xms1G -Xmx4G",
+  "webhook_url":"your_url_here",
+  "role_id":"your_role_here"
+}
