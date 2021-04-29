@@ -1,5 +1,5 @@
-# MC Server Discord Hook
-Notify a Discord channel when you start or stop your Minecraft Server.
+# Minecraft Server Discord Hook
+Notify a Discord Server when you start or stop your Minecraft Server.
 
 # Installation
 * Download the latest release and extract all files into your Minecraft Server directory.
@@ -21,3 +21,7 @@ In `run.json`
 * Modify `jvm_args` with your desired Java Runtime Environment arguments.
 * Modify `webhook_url` with the URL to your Discord Server webhook.
 * Modify `role_id` with the ID of the role you would like to \@mention.
+
+# Starting and stopping your server
+* Start your server by opening `run.bat`. Your Discord Server will receive an online notification.
+* Stop your server by typing `stop` in the console. Your Discord Server will receive an offline notification.
